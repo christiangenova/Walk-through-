@@ -1,0 +1,18 @@
+public class StudentGrades {
+    public static void main(String[] args) {
+       
+        double[] grades = {85.5, 90.0, 78.5, 88.0, 92.5};
+        
+      
+        double sum = 0;
+        for (double grade : grades) {
+            sum += grade;
+        }
+
+      
+        double average = sum / grades.length;
+
+       
+        System.out.println("Average grade: " + average);
+    }
+}
